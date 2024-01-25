@@ -28,31 +28,19 @@ Explain how to install and set up your project.
 Poetry <https://python-poetry.org/>
 
 1. Project creation
-   **poetry new project_name**
+   1. **poetry new --src my-package**
+   2. activates the virtual environment. **poetry shell**
+
 2. Environment setup
-   2.1 Get the path to Python
-       **where python**
-
-   2.2 Create a local environment
-       **poetry env use C:\Users\max20\AppData\Local\Programs\Python\Python312\python.exe**
-
-   2.3 Activate the local environment (\Scripts\activate)
-       **C:\Users\max20\AppData\Local\pypoetry\Cache\virtualenvs\smart-crypto-trader-project-1-FINkROHc-py3.12\Scripts\activate**
-
-   2.4 Check environment dependencies
-       **pip freeze**
-
-   2.5 Check the location of the environment
-       **where pip**
-
-   2.6 Install packages
-       **poetry add package**
-
-   2.7 Install development packages
-       **poetry add -D mypy**
-
-   2.8 View package dependency tree
-       **poetry show --tree**
+   1. Get the path to Python **where python**
+   2. Info about environment **poetry env info**
+   3. Create a local environment **poetry env use C:\Users\max20\AppData\Local\Programs\Python\Python312\python.exe**
+   4. Activate the local environment (\Scripts\activate)  **poetry C:\Users\max20\AppData\Local\pypoetry\Cache\virtualenvs\smart-crypto-trader\Scripts\activate**
+   5. Check environment dependencies **pip freeze**
+   6. Check the location of the environment **where pip**
+   7. Install packages **poetry add package**
+   8. Install development packages **poetry add -D mypy**
+   9. View package dependency tree **poetry show --tree**
 
 ## Links
 
