@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "smart-crypto-trader-project-1"
+version = "0.1.0"
+description = ""
+authors = ["max200pl <max2000pl@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
